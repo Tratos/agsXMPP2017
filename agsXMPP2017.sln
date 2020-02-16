@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agsXMPP", "agsXMPP\agsXMPP.csproj", "{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{B782E420-A4D3-4F14-A69B-46443B17872C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E} = {91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EA0D0B-D3BA-497F-AFEB-2CAD59DEBA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B782E420-A4D3-4F14-A69B-46443B17872C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B782E420-A4D3-4F14-A69B-46443B17872C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B782E420-A4D3-4F14-A69B-46443B17872C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B782E420-A4D3-4F14-A69B-46443B17872C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C02BE36-FDFD-405E-AE66-9EC363AEF2C3}
+	EndGlobalSection
+EndGlobal
